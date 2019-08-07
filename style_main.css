@@ -134,6 +134,8 @@ img{
         overflow: hidden;
         height: 200px;
         font-size: 120%;
+		margin: 0 auto;
+		overflow: hidden;
 
       }
       header{background-color: #5c5c5c;}
