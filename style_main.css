@@ -128,8 +128,8 @@ img{
   /*ハンバーガーここまで*/
 
   /*スマホモード*/
-  @media (max-width:480px){
-      body{font-size:200%;
+  @media (max-width:900px){
+      body{
         margin: 0 auto;
         overflow: hidden;
         height: 200px;
@@ -149,7 +149,7 @@ img{
         }
     }
   /*PCモード*/
-  @media (min-width:481px){
+  @media (min-width:901px){
      body{font-size:150%;}
      h1{font-size:250%;}
      h2{font-size:200%;}
