@@ -124,10 +124,7 @@ img{
   
   /*ハンバーガーここまで*/
 
-img.img1{
-max-width: 100%;
-height: auto;
-}
+
  
 @media screen and (min-width:480px) { 
     /*　画面サイズが480pxからはここを読み込む　*/
@@ -155,4 +152,36 @@ height: auto;
         max-width: 300px;/*最大幅（調整してください）*/
     }
  
+}
+
+#animation {
+margin: 50px 0;
+font-size: 40px;
+font-weight: bold;
+color: #ff0000;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+img.img1{
+max-width: 100%;
+height: auto;
 }
