@@ -145,5 +145,8 @@ img{
         color: rgb(255, 255, 255);
         font-size: 200%;
     }
+    navi-content{
+        max-width: 300px;/*最大幅（調整してください）*/
+    }
  
 }
