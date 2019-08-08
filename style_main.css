@@ -124,6 +124,10 @@ img{
   
   /*ハンバーガーここまで*/
 
+img1{
+width: 96px;
+height: 65px;
+}
  
 @media screen and (min-width:480px) { 
     /*　画面サイズが480pxからはここを読み込む　*/
