@@ -11,6 +11,12 @@ font-family: 'DIN Next W01 Regular',YuGothic,'游ゴシック','ＭＳ Ｐゴシ
 h1{ text-align: center;}
 h2,h3,h4{font-family: "DINNextW01-Regular"}
 
+a {
+	color: #4c5167;
+	text-decoration: none;
+	transition: color .4s, opacity .4s, text-decoration .4s;
+}
+
   /*ハンバーガーここから*/
   #nav-drawer {
       position:fixed; top:10px; left:10px;
