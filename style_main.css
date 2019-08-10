@@ -235,7 +235,7 @@ height: auto;
   position: relative;
   }
 
-.photo_chara_left_1 1 {
+.photo_chara_left_1 h1 {
   position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
