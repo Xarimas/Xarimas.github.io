@@ -235,11 +235,10 @@ height: auto;
   position: relative;
   }
 
-.photo_chara_left_1 p {
+.photo_chara_left_1 1 {
   position: absolute;
   color: white;/*文字は白に*/
   font-weight: bold; /*太字に*/
-  font-size: 2em;/*サイズ2倍*/
   top: 0;
   left: 0;
   }
