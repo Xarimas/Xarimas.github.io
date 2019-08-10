@@ -9,7 +9,6 @@ font-family: 'DIN Next W01 Regular',YuGothic,'游ゴシック','ＭＳ Ｐゴシ
 }
 
 h1{ text-align: center;}
-h2,h3,h4{font-family: "DINNextW01-Regular"}
 
 a {
 	color: #4c5167;
@@ -231,3 +230,17 @@ img.img1{
 max-width: 100%;
 height: auto;
 }
+
+.photo_chara_left_1 {/*親div*/
+  position: relative;
+  }
+
+.photo_chara_left_1 p {
+  position: absolute;
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;/*サイズ2倍*/
+  top: 0;
+  left: 0;
+  }
+
