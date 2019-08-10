@@ -243,3 +243,10 @@ height: auto;
   left: 0;
   }
 
+.photo_chara_left_1 p {
+  position: absolute;
+  color: white;/*文字は白に*/
+  top: 0;
+  left: 0;
+  }
+
