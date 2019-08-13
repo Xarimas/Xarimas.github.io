@@ -238,24 +238,23 @@ max-width: 100%;
 height: auto;
 }
 
-.photo_chara_left_1 {/*親div*/
-  position: relative;
-  }
-
-.photo_chara_left_1 h1 {
-  position: absolute;
-  color: white;/*文字は白に*/
-  font-weight: bold; /*太字に*/
-  top: 0;
-  left: 0;
-  }
-
-.photo_chara_left_1 p {
-  position: absolute;
-  color: white;/*文字は白に*/
-  top: 0;
-  left: 0;
-  }
+.media {
+    background: #FFF;
+    padding: 10px;
+    overflow: hidden;
+}
+.media__image {
+    float: left;
+    margin-right: 10px;
+}
+.media__summary {
+    overflow: hidden;
+}
+.media__heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
 inline-block {
     display: inline-block;      /* インラインブロック要素にする */
