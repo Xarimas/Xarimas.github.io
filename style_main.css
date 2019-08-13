@@ -143,10 +143,12 @@ img{
 
     }
 	
-    .img_left{
-      max-width: 150px;
-      height: auto;
-     }
+    img{
+	    .img_left{
+                        max-width: 30%;
+                        height: auto;
+                     }
+	}
 
 
 
