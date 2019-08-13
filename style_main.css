@@ -238,6 +238,11 @@ max-width: 100%;
 height: auto;
 }
 
+img.img_left{
+max-width: 30%;
+height: auto;
+}
+
 .media {
     background: #dcdcdc;
     padding: 10px;
