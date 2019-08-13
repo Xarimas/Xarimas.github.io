@@ -142,6 +142,11 @@ img{
         background-color: rgb(173, 216, 148);
 
     }
+	
+    img.img_left{
+      max-width: 250px;
+      height: auto;
+     }
 
 
 
@@ -239,7 +244,7 @@ height: auto;
 }
 
 img.img_left{
-max-width: 100px;
+max-width: 250px;
 height: auto;
 }
 
