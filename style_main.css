@@ -282,7 +282,7 @@ height: auto;
     padding:  20px;             /* 余白指定 */
     height: auto;              /* 高さ指定 */
     width: 250px; 
-    margin：10px;
+    border : 5px solid maroon ;
 }
 
 .contents_box {
