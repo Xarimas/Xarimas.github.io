@@ -161,7 +161,7 @@ img{
 
 @media screen and (min-width:200px) and ( max-width:768px){
 
-    /*　画面サイズが1024pxからはここを読み込む　*/
+    /*　画面サイズが200pxからはここを読み込む　*/
 
     body{
 
@@ -169,7 +169,17 @@ img{
 	color: rgb(255, 255, 255);
 
     }
+	
+    img{
+	    .img_left{
+                        max-width: 30%;
+                        height: auto;
+                     }
+	}
 
+    .desktop_text{
+	display:none;
+     }
 
 }
 
