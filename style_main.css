@@ -150,6 +150,9 @@ img{
                      }
 	}
 
+	.desktop_text{
+	display:none;
+	}
 
 
 }
@@ -294,6 +297,9 @@ height: auto;
 	
 }
 
+.desktop_text{
+
+}
 
 .mobile_text h1{
   color: red;
