@@ -194,6 +194,10 @@ img{
         max-width: 300px;/*最大幅（調整してください）*/
 
     }
+	
+	mobile_text{
+	visibility:hidden;
+	}
 
  
 
@@ -250,3 +254,11 @@ height: auto;
   left: 0;
   }
 
+
+#mobile_text{
+	
+}
+
+.h1{
+  color: red;
+}
