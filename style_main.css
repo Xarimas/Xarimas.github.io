@@ -255,6 +255,12 @@ height: auto;
   left: 0;
   }
 
+.inline-block {
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color:  #f0ffff;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 100px;              /* 高さ指定 */
+}
 
 #mobile_text{
 	
