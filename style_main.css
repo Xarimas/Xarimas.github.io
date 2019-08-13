@@ -144,7 +144,7 @@ img{
     }
 	
     img.img_left{
-      max-width: 250px;
+      max-width: 150px;
       height: auto;
      }
 
@@ -161,10 +161,10 @@ img{
     body{
 
         background-color: rgb(32, 32, 32);
-
-        color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 
     }
+
 
 }
 
@@ -178,13 +178,15 @@ img{
 
         background-color: rgb(255, 153, 0);
 	    
-	.nav-drawer{
-	display:none;
-	}
+
 
     }
 	.mobile_text{
 	display:none;
+	}
+	
+        .nav-drawer{
+	 display:none;
 	}
 
 }
@@ -198,11 +200,17 @@ img{
         background-color: rgb(32, 32, 32);
         font-size:150%;
         color: rgb(255, 255, 255);
+	
+
 
     }
 	
 	.mobile_text{
 	display:none;
+	}
+	
+        .nav-drawer{
+	  display:none;
 	}
 	
 
