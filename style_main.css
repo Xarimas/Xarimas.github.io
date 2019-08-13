@@ -188,15 +188,9 @@ img{
         color: rgb(255, 255, 255);
 
     }
-
-    #navi-content{
-
-        max-width: 300px;/*最大幅（調整してください）*/
-
-    }
 	
 	.mobile_text{
-	visibility:hidden;
+	display:none
 	}
 
  
