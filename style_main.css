@@ -172,6 +172,10 @@ img{
     body{
 
         background-color: rgb(255, 153, 0);
+	    
+	.nav-drawer{
+	display:none;
+	}
 
     }
 	.mobile_text{
@@ -196,9 +200,7 @@ img{
 	display:none;
 	}
 	
-	.nav-drawer{
-	display:none;
-	}
+
 
  
 
