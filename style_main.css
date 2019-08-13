@@ -264,6 +264,10 @@ height: auto;
     width: 250px; 
 }
 
+.contents_box {
+    text-align: center;         /* 子要素を左右中央揃えにする */
+}
+
 .mobile_text{
 	
 }
