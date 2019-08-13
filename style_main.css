@@ -286,7 +286,7 @@ height: auto;
 
 .contents_box {
     text-align: center;         /* 子要素を左右中央揃えにする */
-    padding:  20px;             /* 余白指定 */
+    margin：10px;
 }
 
 .mobile_text{
