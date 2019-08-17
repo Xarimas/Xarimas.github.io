@@ -267,7 +267,7 @@ height: auto;
 }
 
 img.img_left{
-max-width: 250px;
+max-width: 25%;
 height: auto;
 }
 
@@ -279,6 +279,7 @@ height: auto;
 .media__image {
     float: left;
     margin-right: 10px;
+    
 }
 .media__summary {
     overflow: hidden;
